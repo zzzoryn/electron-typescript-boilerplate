@@ -1,0 +1,47 @@
+{
+  "name": "electron-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main/index.js",
+  "electronVersion": "1.7.9",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.2.15",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "cross-env": "^5.1.0",
+    "css-mqpacker": "^6.0.1",
+    "del": "^3.0.0",
+    "devtron": "^1.4.0",
+    "electron-packager": "^9.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run-electron": "^3.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-tsb": "^2.0.4",
+    "gulp-typescript": "^3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1",
+    "postcss-merge-rules": "^2.1.2",
+    "run-sequence": "^2.2.0",
+    "through2": "^2.0.3",
+    "tsify": "^3.0.3",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "electron": "^1.7.9"
+  }
+}

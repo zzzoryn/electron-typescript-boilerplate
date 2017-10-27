@@ -1,0 +1,17 @@
+$bg: #eee;
+$color: #333;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg;
+  font: 14px Arial;
+  color: $color;
+}
+
+#app {
+  width: 100%;
+  padding: 100px;
+}
